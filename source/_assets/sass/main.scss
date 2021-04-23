@@ -5,9 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
 
-@import '~bootstrap/scss/_functions';
-@import 'variables';
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/_functions';
+// @import 'variables';
+// @import '~bootstrap/scss/bootstrap';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 @import 'template';
 @import 'custom';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
